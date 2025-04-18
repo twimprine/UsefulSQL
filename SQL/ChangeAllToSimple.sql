@@ -1,5 +1,5 @@
 -- Set the base backup directory
-DECLARE @BackupPathBase NVARCHAR(255) = 'E:\SQLBackups\'  -- Update as needed
+DECLARE @BackupPathBase NVARCHAR(255) = 'S:\SQLBackups\'  -- Update as needed
 
 DECLARE @DatabaseName NVARCHAR(128)
 DECLARE @LogFileName NVARCHAR(128)
