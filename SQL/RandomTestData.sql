@@ -59,13 +59,13 @@ REQUIREMENTS:
 - CREATE TABLE permissions
 - Sufficient database space for test data
 
-AUTHOR: Test Data Generation
+AUTHOR: Thomas Wimprine
 CREATED: Various
 LAST MODIFIED: 2025-06-04
 ================================================================================
 */
 
--- filepath: c:\Users\ThomasWimprine\OneDrive - In-Telecom Consulting\Repositories\UsefulSQL\SQL\RandomTestData.sql
+
 -- Create a test table with various data types for comprehensive testing
 CREATE TABLE test_data (
     id INT IDENTITY(1,1) PRIMARY KEY,

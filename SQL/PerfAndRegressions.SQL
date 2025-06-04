@@ -53,13 +53,12 @@ REQUIREMENTS:
 - db_datareader permission minimum
 - Historical query execution data in Query Store
 
-AUTHOR: Query Performance Analysis
+AUTHOR: Thomas Wimprine
 CREATED: Various
 LAST MODIFIED: 2025-06-04
 ================================================================================
 */
 
--- filepath: c:\Users\ThomasWimprine\OneDrive - In-Telecom Consulting\Repositories\UsefulSQL\SQL\PerfAndRegressions.SQL
 -- Basic Query Store query joining fundamental tables
 -- This is a foundation that should be extended for specific analysis
 SELECT *

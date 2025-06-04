@@ -55,7 +55,7 @@ LAST MODIFIED: 2025-06-04
 ================================================================================
 */
 
--- filepath: c:\Users\ThomasWimprine\OneDrive - In-Telecom Consulting\Repositories\UsefulSQL\SQL\CreateRandomDatabases.sql
+
 -- Create a temp table with NATO phonetic alphabet words for database names
 DECLARE @words TABLE (word NVARCHAR(50));
 INSERT INTO @words (word)

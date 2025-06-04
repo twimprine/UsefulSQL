@@ -43,13 +43,12 @@ REQUIREMENTS:
 - db_ddladmin permission minimum for index operations
 - Enterprise edition for ONLINE = ON rebuild operations
 
-AUTHOR: Index Maintenance
+AUTHOR: Thomas Wimprine
 CREATED: Various
 LAST MODIFIED: 2025-06-04
 ================================================================================
 */
 
--- filepath: c:\Users\ThomasWimprine\OneDrive - In-Telecom Consulting\Repositories\UsefulSQL\SQL\FixIndexes.SQL
 -- Step 1: Ensure optimizer has the latest statistics for all tables in database
 -- This helps the query optimizer make better execution plan decisions
 EXEC sp_updatestats;

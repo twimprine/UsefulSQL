@@ -61,13 +61,13 @@ REQUIREMENTS:
 - VIEW DATABASE STATE permission
 - Access to sys.dm_db_index_physical_stats
 
-AUTHOR: Index Maintenance
+AUTHOR: Thomas Wimprine
 CREATED: Various
 LAST MODIFIED: 2025-06-04
 ================================================================================
 */
 
--- filepath: c:\Users\ThomasWimprine\OneDrive - In-Telecom Consulting\Repositories\UsefulSQL\SQL\IndexFragmentation.sql
+
 SELECT 
   dbschemas.[name] AS 'Schema',
   dbtables.[name] AS 'Table',

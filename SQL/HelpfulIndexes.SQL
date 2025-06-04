@@ -54,13 +54,12 @@ REQUIREMENTS:
 - VIEW SERVER STATE permission
 - Database with query activity for recommendations
 
-AUTHOR: Index Optimization
+AUTHOR: Thomas Wimprine
 CREATED: Various
 LAST MODIFIED: 2025-06-04
 ================================================================================
 */
 
--- filepath: c:\Users\ThomasWimprine\OneDrive - In-Telecom Consulting\Repositories\UsefulSQL\SQL\HelpfulIndexes.SQL
 SELECT
     -- Calculate improvement measure: combines cost, impact, and usage frequency
     migs.avg_total_user_cost * migs.avg_user_impact * (migs.user_seeks + migs.user_scans) AS improvement_measure,

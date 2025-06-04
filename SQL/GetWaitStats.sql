@@ -51,13 +51,13 @@ REQUIREMENTS:
 - VIEW SERVER STATE permission
 - Access to sys.dm_os_wait_stats DMV
 
-AUTHOR: Performance Analysis
+AUTHOR: Thomas Wimprine
 CREATED: Various
 LAST MODIFIED: 2025-06-04
 ================================================================================
 */
 
--- filepath: c:\Users\ThomasWimprine\OneDrive - In-Telecom Consulting\Repositories\UsefulSQL\SQL\GetWaitStats.sql
+
 -- Get all wait statistics ordered by total wait time (most impactful first)
 SELECT * FROM sys.dm_os_wait_stats ORDER BY wait_time_ms DESC;
 

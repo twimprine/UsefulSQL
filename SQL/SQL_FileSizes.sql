@@ -57,13 +57,13 @@ REQUIREMENTS:
 - VIEW ANY DATABASE permission or sysadmin role
 - Access to sys.master_files and sys.databases
 
-AUTHOR: Database Administration
+AUTHOR: Thomas Wimprine
 CREATED: Various
 LAST MODIFIED: 2025-06-04
 ================================================================================
 */
 
--- filepath: c:\Users\ThomasWimprine\OneDrive - In-Telecom Consulting\Repositories\UsefulSQL\SQL\SQL_FileSizes.sql
+
 SELECT 
     db.name AS database_name,
     mf.name AS logical_name,

@@ -60,7 +60,7 @@ REQUIREMENTS:
 - VIEW SERVER STATE permission
 - Access to sys.dm_os_wait_stats DMV
 
-AUTHOR: Performance Diagnostics
+AUTHOR: Thomas Wimprine
 CREATED: Various
 LAST MODIFIED: 2025-06-04
 ================================================================================
@@ -77,7 +77,7 @@ ASYNC_NETWORK_IO | Network delay        | Medium | Network latency, Large result
 
 */
 
--- filepath: c:\Users\ThomasWimprine\OneDrive - In-Telecom Consulting\Repositories\UsefulSQL\SQL\IdentBottlenecks.sql
+
 SELECT wait_type, wait_time_ms, signal_wait_time_ms, waiting_tasks_count
 FROM sys.dm_os_wait_stats
 WHERE wait_type NOT IN (

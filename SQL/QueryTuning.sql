@@ -63,7 +63,7 @@ REQUIREMENTS:
 - VIEW SERVER STATE permission
 - Access to sys.dm_exec_query_stats DMV
 
-AUTHOR: Query Performance Analysis
+AUTHOR: Thomas Wimprine
 CREATED: Various
 LAST MODIFIED: 2025-06-04
 ================================================================================
@@ -84,7 +84,7 @@ LAST MODIFIED: 2025-06-04
 | statement_text   | The SQL being executed                              | Look for missing indexes, bad patterns, UDFs, etc. |
 */
 
--- filepath: c:\Users\ThomasWimprine\OneDrive - In-Telecom Consulting\Repositories\UsefulSQL\SQL\QueryTuning.sql
+
 -- Find top 10 queries by average CPU consumption per execution
 SELECT TOP 10
     total_worker_time / execution_count AS avg_cpu,

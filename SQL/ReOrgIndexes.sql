@@ -58,7 +58,7 @@ REQUIREMENTS:
 - Sufficient transaction log space for operations
 - Enterprise edition for ONLINE rebuild operations
 
-AUTHOR: Index Maintenance Automation
+AUTHOR: Thomas Wimprine
 CREATED: Various
 LAST MODIFIED: 2025-06-04
 ================================================================================
@@ -72,7 +72,7 @@ LAST MODIFIED: 2025-06-04
     fragmentation is above 10%, it will either reorganize or rebuild the index based on the level of fragmentation.
 */
 
--- filepath: c:\Users\ThomasWimprine\OneDrive - In-Telecom Consulting\Repositories\UsefulSQL\SQL\ReOrgIndexes.sql
+
 
 -- Declare variables for cursor operations
 DECLARE @TableName NVARCHAR(128);

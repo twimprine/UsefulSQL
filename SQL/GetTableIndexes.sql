@@ -49,13 +49,13 @@ REQUIREMENTS:
 - SELECT permission on target table
 - Access to system catalog views
 
-AUTHOR: Index Analysis
+AUTHOR: Thomas Wimprine
 CREATED: Various
 LAST MODIFIED: 2025-06-04
 ================================================================================
 */
 
--- filepath: c:\Users\ThomasWimprine\OneDrive - In-Telecom Consulting\Repositories\UsefulSQL\SQL\GetTableIndexes.sql
+
 SELECT
     i.name AS IndexName,
     i.type_desc AS IndexType,
