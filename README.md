@@ -91,7 +91,7 @@ These are your go-to scripts for understanding what you're dealing with when you
 
 #### ChangeAllToSimple.sql
 **What it does**: Changes all user databases to Simple recovery model.
-**When to use it**: Development environments where you don't need point-in-time recovery.
+**When to use it**: Development environments where you don't need point-in-time recovery or an external BDR solution.
 
 #### CreateFillData.sql / RandomTestData.sql
 **What they do**: Generate test data for development and testing.
